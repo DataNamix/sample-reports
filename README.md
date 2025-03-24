@@ -25,6 +25,7 @@ The sample reports in this repository cover a range of topics, including:
 - Business Credit Reports
 - Sanctions and AML Reports
 - Deceased Estate Reports
+- Bank Account Verfication Reports
 
 Each sample report is designed to illustrate the format and types of information that users can expect when accessing services from Datanamix.
 
