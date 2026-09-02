@@ -1,6 +1,6 @@
 # Datanamix Sample Reports
 
-This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment using synthetic personas and organizations. The Experian and TransUnion samples were generated from merged Unified API commit `b32aad45` on 2 September 2026.
+This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment using synthetic personas and organizations. The Experian and TransUnion samples were generated from merged Unified API commit `b32aad45` on 2 September 2026. The KBA and XDS Consumer Trace samples were generated through the public development API on 2 September 2026 using linked database-backed search and result requests.
 
 ## Unified sandbox reports
 
@@ -34,12 +34,14 @@ Every PDF in this table is encrypted with the password **`0123456789`**. Result 
 | TransUnion | CV4B result | Asgard Energy (Pty) Ltd — `100000014` | [PDF](reports/TransUnion/transunion-cv4b-sample-report.pdf) |
 | TransUnion | Commercial Credit result | Asgard Energy (Pty) Ltd — `100000014` | [PDF](reports/TransUnion/transunion-commercial-credit-sample-report.pdf) |
 | Consumer Trace | Datanamix consumer trace result | Loki Laufeyson — `739031 / 739131` | [PDF](reports/Trace/datanamix-consumer-trace-sample-report.pdf) |
+| Consumer Trace | XDS consumer trace result | Arthur Pendragon — `739001\|739101\|2` | [PDF](reports/Trace/xds-consumer-trace-sample-report.pdf) |
 | Face Verification | ID photo from HANIS | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-photo-from-hanis-sample-report.pdf) |
 | Face Verification | ID scan to HANIS verification | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-scan-to-hanis-verification-sample-report.pdf) |
 | Face Verification | Profile Plus ID photo match | Arthur Pendragon — `7603215073085` | [PDF](reports/face/profile-plus-id-photo-match-verification-sample-report.pdf) |
 | KYC | Consumer KYC | Loki Laufeyson — `430031 / 430131` | [PDF](reports/ConsumerKYC/ConsumerkycIDNumber.pdf) |
 | KYC | Address Plus Profile IDV | Loki Laufeyson — `8304017263086` | [PDF](reports/AddressSacrra/address-plus-profile-idv-sample-report.pdf) |
 | Biometric Verification | Fingerprint verification | Arthur Pendragon — `7603215073085`, match marker | [PDF](reports/BiometricVerfification/DatanamixBiometricFingerprintVerificationSampleReport.pdf) |
+| Knowledge Based Authentication | KBA result | Arthur Pendragon — linked three-question sandbox session | [PDF](reports/KBA/knowledge-based-authentication-sample-report.pdf) |
 | Standard Sanctions | Adverse media | Loki Laufeyson | [PDF](reports/sanctions-standard/sanctions-adverse-media.pdf) |
 | Standard Sanctions | Aircraft | Raven One — `ZS-RVN` | [PDF](reports/sanctions-standard/sanctions-standard-aircraft.pdf) |
 | Standard Sanctions | Entity | Chaos Holdings (Pty) Ltd — `2018/001303/07` | [PDF](reports/sanctions-standard/sanctions-standard-entity.pdf) |
@@ -55,6 +57,6 @@ The product sandbox matrices in the Datanamix Unified API documentation provide 
 
 ## Scope
 
-This refresh intentionally excludes AIOCR, Global Data, KBA, non-PDF search operations, and the internal Face Audit route. The legacy XDS Consumer Trace PDF remains in the repository, but there is currently only one database-backed Consumer Trace result endpoint in the Unified API.
+This refresh intentionally excludes AIOCR, Global Data, non-PDF search operations, and the internal Face Audit route because those operations do not produce public downloadable sandbox PDFs. Both Datanamix and XDS Consumer Trace result routes are represented with separate reports generated from the shared database-backed persona dataset.
 
 All identities and organizations represented in these reports are synthetic sandbox data. They must not be treated as live bureau records.
