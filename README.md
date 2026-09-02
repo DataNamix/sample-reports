@@ -1,6 +1,6 @@
 # Datanamix Sample Reports
 
-This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment on 11 August 2026 using synthetic personas and organizations.
+This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment using synthetic personas and organizations. The Experian samples were generated from merged Unified API commit `b32aad45` on 2 September 2026.
 
 ## Unified sandbox reports
 
@@ -28,6 +28,9 @@ Every PDF in this table is encrypted with the password **`0123456789`**. Result 
 | Credit | Datanamix commercial express score result | Chaos Holdings (Pty) Ltd — `1810016 / 1811016` | [PDF](reports/Credit/Datanamix_Commercial_Express_Score_Report.pdf) |
 | Credit | XDS consumer result | Loki Laufeyson — `1800031 / 1801031` | [PDF](reports/Credit/XDS_Consumer_Credit_Sample_Report.pdf) |
 | Credit | XDS commercial result | Chaos Holdings (Pty) Ltd — `1810016 / 1811016` | [PDF](reports/Credit/XDS_Commercial_Credit_Sample_Report.pdf) |
+| Experian | Consumer Credit Report | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-consumer-credit-report-sample.pdf) |
+| Experian | Express Score | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-express-score-sample.pdf) |
+| Experian | Affordability Assessment | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-affordability-assessment-sample.pdf) |
 | Consumer Trace | Datanamix consumer trace result | Loki Laufeyson — `739031 / 739131` | [PDF](reports/Trace/datanamix-consumer-trace-sample-report.pdf) |
 | Face Verification | ID photo from HANIS | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-photo-from-hanis-sample-report.pdf) |
 | Face Verification | ID scan to HANIS verification | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-scan-to-hanis-verification-sample-report.pdf) |
