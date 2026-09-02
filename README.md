@@ -1,6 +1,6 @@
 # Datanamix Sample Reports
 
-This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment using synthetic personas and organizations. The Experian samples were generated from merged Unified API commit `b32aad45` on 2 September 2026.
+This repository contains downloadable PDF examples for Datanamix products. The Unified API samples below were generated from the database-backed `SANDBOX` environment using synthetic personas and organizations. The Experian and TransUnion samples were generated from merged Unified API commit `b32aad45` on 2 September 2026.
 
 ## Unified sandbox reports
 
@@ -31,6 +31,8 @@ Every PDF in this table is encrypted with the password **`0123456789`**. Result 
 | Experian | Consumer Credit Report | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-consumer-credit-report-sample.pdf) |
 | Experian | Express Score | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-express-score-sample.pdf) |
 | Experian | Affordability Assessment | Arthur Pendragon — `7603215073085` | [PDF](reports/Experian/experian-affordability-assessment-sample.pdf) |
+| TransUnion | CV4B result | Asgard Energy (Pty) Ltd — `100000014` | [PDF](reports/TransUnion/transunion-cv4b-sample-report.pdf) |
+| TransUnion | Commercial Credit result | Asgard Energy (Pty) Ltd — `100000014` | [PDF](reports/TransUnion/transunion-commercial-credit-sample-report.pdf) |
 | Consumer Trace | Datanamix consumer trace result | Loki Laufeyson — `739031 / 739131` | [PDF](reports/Trace/datanamix-consumer-trace-sample-report.pdf) |
 | Face Verification | ID photo from HANIS | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-photo-from-hanis-sample-report.pdf) |
 | Face Verification | ID scan to HANIS verification | Arthur Pendragon — `7603215073085` | [PDF](reports/face/id-scan-to-hanis-verification-sample-report.pdf) |
